@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.unit-price {
+  font-size: 16px;
+  color: #333;
+}
+
+.quantity {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.fas {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fa-heart {
+  color: black;
+}
+
+.fa-heart.liked {
+  color: red;
+}
+
+.total {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
